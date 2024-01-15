@@ -1,0 +1,28 @@
+.top-navbar{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.sidenav{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 56px;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+.sidenav .nav{
+    width: 241px;
+    margin-top: 14px;
+    
+}
+
+.sidenav .nav .nav-item .nav-link{
+    color: black;
+    background: #0dcaf0;
+    margin: 2px 1px;
+    margin-left: 2px;
+}
